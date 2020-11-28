@@ -17,7 +17,7 @@ namespace FactoryPattern.AbstractFactory
     }
 
     // These are our concrete factories
-    class BreadSandwichFactory : SandwichFactory
+    class BreadSandwich : SandwichFactory
     {
         public override Cheese CreateCheese()
         {
@@ -29,7 +29,7 @@ namespace FactoryPattern.AbstractFactory
         }
     }
 
-    class GrilledCheeseFactory : SandwichFactory
+    class GrilledCheese : SandwichFactory
     {
         public override Cheese CreateCheese()
         {
@@ -41,7 +41,7 @@ namespace FactoryPattern.AbstractFactory
         }
     }
 
-    class TunaMeltFactory : SandwichFactory
+    class TunaMelt : SandwichFactory
     {
         public override Cheese CreateCheese()
         {

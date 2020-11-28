@@ -103,13 +103,13 @@ namespace FactoryPattern
             switch (userSandwich.ToLower())
             {
                 case "a":
-                    sandwichFactory = new AF.BreadSandwichFactory();
+                    sandwichFactory = new AF.BreadSandwich();
                     break;
                 case "b":
-                    sandwichFactory = new AF.GrilledCheeseFactory();
+                    sandwichFactory = new AF.GrilledCheese();
                     break;
                 case "c":
-                    sandwichFactory = new AF.TunaMeltFactory();
+                    sandwichFactory = new AF.TunaMelt();
                     break;
                 default:
                     Console.WriteLine("-----Not a viable option-----");
